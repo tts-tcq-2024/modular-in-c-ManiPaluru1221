@@ -8,7 +8,7 @@
 #define LINE_SIZE_LIMIT 40
 
 const char* reference_manual() {
-    char ref_man[BUFFER_SIZE];
+    static char ref_man[BUFFER_SIZE];
     char print_line[LINE_SIZE_LIMIT];
     ref_man[0] = '\n';
     strcat(ref_man, "REFERENCE MANUAL\n");
@@ -18,7 +18,7 @@ const char* reference_manual() {
         ColorPair colorPair = GetColorFromPairNumber(i+1);
         ColorPairToString(&colorPair, pair_name);
         snprintf(print_line, sizeof(print_line), "(%d) %s\n", i+1, pair_name);
-        strcat(ref_man, line);
+        strcat(ref_man, print_line);
         }
     strcat(ref_man, "*****************************\n");
     return ref_man;
