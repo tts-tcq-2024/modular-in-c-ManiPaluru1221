@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <assert.h> 
 #include "color_pair_def.h"
+#include "gen_ref_man.h"
 
 
 int main() {
