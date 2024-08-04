@@ -10,5 +10,7 @@ int main() {
     testPairToNumber(BLACK, ORANGE, 12);
     testPairToNumber(VIOLET, SLATE, 25);
 
+    const char* ref_man = reference_manual();  
+    printf("%s", ref_man);
     return 0;
 }
