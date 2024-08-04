@@ -5,9 +5,13 @@ const char* MajorColorNames[] = {
     "White", "Red", "Black", "Yellow", "Violet"
 };
 
+int numberOfMajorColors;
+
 const char* MinorColorNames[] = {
     "Blue", "Orange", "Green", "Brown", "Slate"
 };
+
+int numberOfMinorColors;
 
 const int MAX_COLORPAIR_NAME_CHARS = 16;
 
