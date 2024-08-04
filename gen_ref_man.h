@@ -1,1 +1,1 @@
-const char * reference_manual(void);
+const char* reference_manual(void);
