@@ -1,4 +1,4 @@
-#include <color_pair_def.h>
+#include "color_pair_def.h"
 
 MajorColorNames[] = {
     "White", "Red", "Black", "Yellow", "Violet"
