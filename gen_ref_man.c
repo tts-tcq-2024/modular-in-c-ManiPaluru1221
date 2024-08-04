@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 #include "color_pair_def.h"
+#include "gen_ref_man.h"
 
 
 #define BUFFER_SIZE 2048
